@@ -1,4 +1,19 @@
-﻿using System.Drawing;
+﻿/* File name: SVGParser.cs
+ * Description:
+ * TCP Client.
+ * Display a SVG image and shows its properties.
+ * Date: February 23th, 2014.
+ * Autor: Lasitha Ishan Petthawadu
+ * 
+ * Modified by: Elisabet Gonzalez
+ * Date: May 13th, 2016.
+ * Version: 1.0.
+ * 
+ * History:
+ * v1.0     13/05/2016  SVG displayed.
+ * v1.1     13/05/2016  Comments and connection code added.
+ */
+using System.Drawing;
 using Svg;
 
 namespace TCP_Client

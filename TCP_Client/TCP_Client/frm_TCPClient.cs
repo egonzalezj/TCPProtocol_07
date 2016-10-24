@@ -1,4 +1,17 @@
-﻿using System;
+﻿/* File name: frm_TCPClient.cs
+ * Description:
+ * TCP Client.
+ * Display a SVG image and shows its properties.
+ * Date: May 13th, 2016.
+ * Autor: Elisabet Gonzalez
+ * Version: 1.0.
+ * 
+ * History:
+ * v1.0     13/05/2016  SVG displayed.
+ * v1.1     13/05/2016  Comments and connection code added.
+ */
+
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 

@@ -143,14 +143,20 @@
   <data name="txt_serverIP_1.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
-  <data name="lbl_localPort.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="lbl_localIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lbl_height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
   </data>
   <data name="&gt;&gt;lbl_localIP.Parent" xml:space="preserve">
     <value>gb_connectionOptions</value>
   </data>
   <data name="txt_serverIP_2.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 71</value>
+  </data>
+  <data name="&gt;&gt;txt_connectionStatus.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;txt_serverIP_1.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -160,9 +166,6 @@
   </data>
   <data name="&gt;&gt;gb_connectionOptions.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lbl_localPort.Name" xml:space="preserve">
-    <value>lbl_localPort</value>
   </data>
   <data name="&gt;&gt;gp_svgPreview.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -182,11 +185,9 @@
   <data name="&gt;&gt;txt_serverIP_3.Name" xml:space="preserve">
     <value>txt_serverIP_3</value>
   </data>
-  <data name="lbl_height.Text" xml:space="preserve">
-    <value>Height:</value>
-  </data>
-  <data name="&gt;&gt;lbl_localIP.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pb_svg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
   </data>
   <data name="gp_svgPreview.Size" type="System.Drawing.Size, System.Drawing">
     <value>420, 430</value>
@@ -197,9 +198,6 @@
   <data name="&gt;&gt;lbl_connectionStatus.Parent" xml:space="preserve">
     <value>gb_connectionOptions</value>
   </data>
-  <data name="txt_localPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
   <data name="&gt;&gt;txt_localIP.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -209,8 +207,8 @@
   <data name="lbl_localIP.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 35</value>
   </data>
-  <data name="gb_svgOptions.Text" xml:space="preserve">
-    <value>SVG Options</value>
+  <data name="txt_localIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 32</value>
   </data>
   <data name="&gt;&gt;lbl_height.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -218,8 +216,14 @@
   <data name="&gt;&gt;lbl_localPort.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="lbl_loadSVG.Text" xml:space="preserve">
+    <value>Load SVG</value>
+  </data>
   <data name="txt_name.Location" type="System.Drawing.Point, System.Drawing">
     <value>50, 61</value>
+  </data>
+  <data name="&gt;&gt;lbl_loadSVG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="gb_connectionOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>475, 102</value>
@@ -229,9 +233,6 @@
   </data>
   <data name="&gt;&gt;txt_serverIP_4.Name" xml:space="preserve">
     <value>txt_serverIP_4</value>
-  </data>
-  <data name="btn_connect.Location" type="System.Drawing.Point, System.Drawing">
-    <value>390, 69</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>TCP Client</value>
@@ -245,24 +246,20 @@
   <data name="&gt;&gt;filePicker.Name" xml:space="preserve">
     <value>filePicker</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txt_localPort.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
   <data name="&gt;&gt;lbl_serverPort.Parent" xml:space="preserve">
     <value>gb_connectionOptions</value>
   </data>
   <data name="&gt;&gt;lbl_localIP.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btn_browse.Text" xml:space="preserve">
-    <value>Browse</value>
-  </data>
   <data name="&gt;&gt;lbl_height.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txt_serverPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 71</value>
+  <data name="gb_connectionOptions.Text" xml:space="preserve">
+    <value>Connection Options</value>
+  </data>
+  <data name="btn_close.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
   </data>
   <data name="&gt;&gt;lbl_width.Parent" xml:space="preserve">
     <value>gb_svgOptions</value>
@@ -270,7 +267,7 @@
   <data name="pb_svg.Size" type="System.Drawing.Size, System.Drawing">
     <value>408, 405</value>
   </data>
-  <data name="&gt;&gt;txt_serverIP_1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbl_localPort.Parent" xml:space="preserve">
     <value>gb_connectionOptions</value>
   </data>
   <data name="&gt;&gt;lbl_loadSVG.Parent" xml:space="preserve">
@@ -285,20 +282,23 @@
   <data name="&gt;&gt;gp_svgPreview.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;txt_name.Name" xml:space="preserve">
-    <value>txt_name</value>
+  <data name="btn_connect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 69</value>
   </data>
   <data name="&gt;&gt;btn_browse.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lbl_connectionStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="txt_localIP.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="&gt;&gt;pb_logo.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="lbl_localPort.Text" xml:space="preserve">
+    <value>Local Port</value>
+  </data>
+  <data name="&gt;&gt;filePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txt_name.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -312,8 +312,8 @@
   <data name="&gt;&gt;lbl_serverPort.Name" xml:space="preserve">
     <value>lbl_serverPort</value>
   </data>
-  <data name="txt_height.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 20</value>
+  <data name="lbl_width.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 64</value>
   </data>
   <data name="lbl_height.Location" type="System.Drawing.Point, System.Drawing">
     <value>316, 64</value>
@@ -330,9 +330,6 @@
   <data name="&gt;&gt;lbl_width.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txt_serverIP_2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 20</value>
-  </data>
   <data name="lbl_name.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
@@ -345,14 +342,11 @@
   <data name="txt_loadSVG.Size" type="System.Drawing.Size, System.Drawing">
     <value>517, 20</value>
   </data>
-  <data name="&gt;&gt;btn_connect.Name" xml:space="preserve">
-    <value>btn_connect</value>
+  <data name="&gt;&gt;txt_serverIP_1.Parent" xml:space="preserve">
+    <value>gb_connectionOptions</value>
   </data>
-  <data name="lbl_localIP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="lbl_width.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txt_serverPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pb_logo.Parent" xml:space="preserve">
     <value>$this</value>
@@ -363,14 +357,14 @@
   <data name="btn_close.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;txt_serverIP_4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lbl_loadSVG.Name" xml:space="preserve">
+    <value>lbl_loadSVG</value>
   </data>
-  <data name="gb_connectionOptions.Text" xml:space="preserve">
-    <value>Connection Options</value>
+  <data name="txt_serverIP_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
-  <data name="txt_serverIP_4.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+  <data name="&gt;&gt;lbl_height.Name" xml:space="preserve">
+    <value>lbl_height</value>
   </data>
   <data name="&gt;&gt;lbl_serverPort.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -390,17 +384,20 @@
   <data name="lbl_serverPort.TabIndex" type="System.Int32, mscorlib">
     <value>27</value>
   </data>
-  <data name="txt_connectionStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;lbl_height.Parent" xml:space="preserve">
+    <value>gb_svgOptions</value>
   </data>
-  <data name="lbl_serverPort.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;txt_name.Name" xml:space="preserve">
+    <value>txt_name</value>
   </data>
   <data name="&gt;&gt;btn_connect.Parent" xml:space="preserve">
     <value>gb_connectionOptions</value>
   </data>
   <data name="&gt;&gt;lbl_name.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="lbl_name.Text" xml:space="preserve">
+    <value>Name:</value>
   </data>
   <data name="txt_connectionStatus.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
@@ -414,8 +411,11 @@
   <data name="lbl_name.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 64</value>
   </data>
-  <data name="lbl_localPort.Text" xml:space="preserve">
-    <value>Local Port</value>
+  <data name="lbl_localPort.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>696, 659</value>
   </data>
   <data name="&gt;&gt;txt_localIP.Name" xml:space="preserve">
     <value>txt_localIP</value>
@@ -423,20 +423,14 @@
   <data name="lbl_serverIP.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
-  <data name="txt_name.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 20</value>
-  </data>
   <data name="txt_serverIP_4.MaxLength" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;txt_serverIP_3.Parent" xml:space="preserve">
-    <value>gb_connectionOptions</value>
   </data>
   <data name="&gt;&gt;txt_serverPort.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;txt_height.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="gb_svgOptions.Text" xml:space="preserve">
+    <value>SVG Options</value>
   </data>
   <data name="&gt;&gt;txt_serverIP_2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -450,41 +444,32 @@
   <data name="lbl_serverIP.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 74</value>
   </data>
-  <data name="txt_serverIP_2.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;btn_close.Name" xml:space="preserve">
     <value>btn_close</value>
-  </data>
-  <data name="txt_connectionStatus.Text" xml:space="preserve">
-    <value>Not connected!</value>
   </data>
   <data name="txt_localPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>231, 32</value>
   </data>
+  <data name="lbl_loadSVG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="txt_localPort.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;lbl_connectionStatus.ZOrder" xml:space="preserve">
     <value>11</value>
-  </data>
-  <data name="txt_localIP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 32</value>
   </data>
   <data name="&gt;&gt;txt_localPort.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;lbl_height.Parent" xml:space="preserve">
-    <value>gb_svgOptions</value>
-  </data>
-  <data name="&gt;&gt;pb_svg.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lbl_height.Text" xml:space="preserve">
+    <value>Height:</value>
   </data>
   <data name="txt_width.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="txt_serverIP_1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
-  </data>
-  <data name="&gt;&gt;lbl_loadSVG.Name" xml:space="preserve">
-    <value>lbl_loadSVG</value>
   </data>
   <data name="gb_svgOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>672, 94</value>
@@ -495,8 +480,11 @@
   <data name="txt_connectionStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
-  <data name="&gt;&gt;btn_connect.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frm_TCPClient</value>
+  </data>
+  <data name="lbl_width.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;txt_connectionStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -519,8 +507,8 @@
   <data name="txt_serverPort.Size" type="System.Drawing.Size, System.Drawing">
     <value>57, 20</value>
   </data>
-  <data name="btn_connect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="txt_serverIP_3.MaxLength" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="pb_svg.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -758,14 +746,14 @@
   <data name="lbl_loadSVG.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="btn_close.TabIndex" type="System.Int32, mscorlib">
-    <value>35</value>
+  <data name="&gt;&gt;btn_connect.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="gb_svgOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
+  <data name="txt_serverPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 71</value>
   </data>
-  <data name="lbl_height.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
+  <data name="txt_height.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
   </data>
   <data name="&gt;&gt;lbl_serverIP.Parent" xml:space="preserve">
     <value>gb_connectionOptions</value>
@@ -776,8 +764,8 @@
   <data name="&gt;&gt;txt_serverIP_1.Name" xml:space="preserve">
     <value>txt_serverIP_1</value>
   </data>
-  <data name="&gt;&gt;pb_logo.Name" xml:space="preserve">
-    <value>pb_logo</value>
+  <data name="&gt;&gt;txt_serverIP_2.Name" xml:space="preserve">
+    <value>txt_serverIP_2</value>
   </data>
   <data name="gp_svgPreview.Text" xml:space="preserve">
     <value>SVG View</value>
@@ -791,11 +779,8 @@
   <data name="txt_loadSVG.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="txt_localPort.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="pb_svg.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
+  <data name="gb_svgOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
   </data>
   <data name="gp_svgPreview.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -818,8 +803,11 @@
   <data name="lbl_width.Text" xml:space="preserve">
     <value>Width:</value>
   </data>
-  <data name="txt_serverIP_3.MaxLength" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;lbl_serverIP.Name" xml:space="preserve">
+    <value>lbl_serverIP</value>
+  </data>
+  <data name="pb_logo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>586, 12</value>
   </data>
   <data name="txt_loadSVG.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 28</value>
@@ -827,11 +815,14 @@
   <data name="txt_localIP.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
   </data>
-  <data name="pb_logo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>586, 12</value>
+  <data name="lbl_width.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frm_TCPClient</value>
+  <data name="txt_serverIP_3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 71</value>
+  </data>
+  <data name="txt_connectionStatus.Text" xml:space="preserve">
+    <value>Not connected!</value>
   </data>
   <data name="&gt;&gt;lbl_serverIP.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -842,8 +833,8 @@
   <data name="&gt;&gt;pb_svg.Name" xml:space="preserve">
     <value>pb_svg</value>
   </data>
-  <data name="txt_connectionStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>365, 32</value>
+  <data name="&gt;&gt;pb_svg.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="txt_serverPort.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
@@ -854,14 +845,11 @@
   <data name="&gt;&gt;txt_height.Name" xml:space="preserve">
     <value>txt_height</value>
   </data>
-  <data name="&gt;&gt;filePicker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txt_serverIP_4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lbl_connectionStatus.Text" xml:space="preserve">
     <value>Status</value>
-  </data>
-  <data name="lbl_serverPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 74</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -871,9 +859,6 @@
   </data>
   <data name="&gt;&gt;gb_svgOptions.Name" xml:space="preserve">
     <value>gb_svgOptions</value>
-  </data>
-  <data name="&gt;&gt;txt_localPort.Name" xml:space="preserve">
-    <value>txt_localPort</value>
   </data>
   <data name="&gt;&gt;txt_loadSVG.Name" xml:space="preserve">
     <value>txt_loadSVG</value>
@@ -887,8 +872,8 @@
   <data name="txt_width.Size" type="System.Drawing.Size, System.Drawing">
     <value>63, 20</value>
   </data>
-  <data name="&gt;&gt;txt_connectionStatus.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;lbl_localPort.Name" xml:space="preserve">
+    <value>lbl_localPort</value>
   </data>
   <data name="txt_serverIP_3.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -902,14 +887,20 @@
   <data name="&gt;&gt;txt_serverIP_3.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="pb_svg.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="lbl_name.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 13</value>
   </data>
-  <data name="&gt;&gt;txt_localPort.Parent" xml:space="preserve">
-    <value>gb_connectionOptions</value>
+  <data name="txt_serverPort.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
   </data>
   <data name="&gt;&gt;txt_serverIP_1.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbl_localIP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;lbl_name.Name" xml:space="preserve">
     <value>lbl_name</value>
@@ -920,8 +911,8 @@
   <data name="&gt;&gt;btn_connect.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lbl_serverPort.Text" xml:space="preserve">
-    <value>Server Port</value>
+  <data name="lbl_connectionStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;lbl_name.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -935,8 +926,8 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="lbl_loadSVG.Text" xml:space="preserve">
-    <value>Load SVG</value>
+  <data name="lbl_serverPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 74</value>
   </data>
   <data name="txt_serverIP_2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -947,26 +938,23 @@
   <data name="&gt;&gt;lbl_connectionStatus.Name" xml:space="preserve">
     <value>lbl_connectionStatus</value>
   </data>
-  <data name="&gt;&gt;txt_serverPort.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txt_height.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;lbl_loadSVG.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txt_connectionStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="lbl_localIP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lbl_serverPort.Text" xml:space="preserve">
+    <value>Server Port</value>
   </data>
-  <data name="&gt;&gt;lbl_localIP.Name" xml:space="preserve">
-    <value>lbl_localIP</value>
+  <data name="txt_serverIP_4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
   </data>
-  <data name="&gt;&gt;lbl_height.Name" xml:space="preserve">
-    <value>lbl_height</value>
+  <data name="txt_localPort.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
-  <data name="&gt;&gt;lbl_serverIP.Name" xml:space="preserve">
-    <value>lbl_serverIP</value>
-  </data>
-  <data name="&gt;&gt;lbl_localPort.Parent" xml:space="preserve">
-    <value>gb_connectionOptions</value>
+  <data name="txt_serverIP_2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
   </data>
   <data name="&gt;&gt;btn_browse.Parent" xml:space="preserve">
     <value>gb_svgOptions</value>
@@ -977,14 +965,17 @@
   <data name="gb_connectionOptions.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
-  <data name="lbl_loadSVG.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
+  <data name="&gt;&gt;txt_localPort.Name" xml:space="preserve">
+    <value>txt_localPort</value>
   </data>
   <data name="&gt;&gt;txt_serverIP_4.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="txt_height.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 61</value>
+  <data name="lbl_serverPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btn_browse.Text" xml:space="preserve">
+    <value>Browse</value>
   </data>
   <data name="txt_localIP.Text" xml:space="preserve">
     <value>127.0.0.1</value>
@@ -992,11 +983,11 @@
   <data name="&gt;&gt;gb_svgOptions.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txt_serverIP_1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 20</value>
+  <data name="txt_height.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 61</value>
   </data>
-  <data name="txt_serverIP_2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
+  <data name="&gt;&gt;btn_connect.Name" xml:space="preserve">
+    <value>btn_connect</value>
   </data>
   <data name="lbl_localPort.Location" type="System.Drawing.Point, System.Drawing">
     <value>170, 35</value>
@@ -1007,8 +998,11 @@
   <data name="txt_serverIP_2.MaxLength" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>696, 659</value>
+  <data name="txt_localPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="&gt;&gt;txt_localPort.Parent" xml:space="preserve">
+    <value>gb_connectionOptions</value>
   </data>
   <data name="gp_svgPreview.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 220</value>
@@ -1016,17 +1010,20 @@
   <data name="txt_width.Location" type="System.Drawing.Point, System.Drawing">
     <value>247, 61</value>
   </data>
-  <data name="txt_serverIP_3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 71</value>
+  <data name="&gt;&gt;pb_logo.Name" xml:space="preserve">
+    <value>pb_logo</value>
   </data>
   <data name="lbl_localIP.Text" xml:space="preserve">
     <value>Local IP</value>
   </data>
-  <data name="lbl_width.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
+  <data name="gb_svgOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 120</value>
   </data>
-  <data name="&gt;&gt;lbl_localPort.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="txt_serverIP_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 20</value>
+  </data>
+  <data name="&gt;&gt;lbl_localIP.Name" xml:space="preserve">
+    <value>lbl_localIP</value>
   </data>
   <data name="&gt;&gt;gb_connectionOptions.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -1034,23 +1031,29 @@
   <data name="&gt;&gt;btn_close.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="lbl_serverPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 13</value>
-  </data>
-  <data name="pb_svg.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txt_serverIP_3.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="txt_connectionStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>365, 32</value>
   </data>
   <data name="&gt;&gt;txt_name.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pb_svg.Parent" xml:space="preserve">
-    <value>gp_svgPreview</value>
+  <data name="btn_connect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="lbl_serverIP.Text" xml:space="preserve">
     <value>Server IP</value>
+  </data>
+  <data name="txt_serverIP_3.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txt_serverIP_3.Parent" xml:space="preserve">
+    <value>gb_connectionOptions</value>
+  </data>
+  <data name="&gt;&gt;pb_svg.Parent" xml:space="preserve">
+    <value>gp_svgPreview</value>
+  </data>
+  <data name="txt_name.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
   </data>
   <data name="lbl_height.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1070,14 +1073,14 @@
   <data name="&gt;&gt;btn_browse.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="txt_serverPort.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
+  <data name="lbl_serverPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
   </data>
   <data name="&gt;&gt;txt_name.Parent" xml:space="preserve">
     <value>gb_svgOptions</value>
   </data>
-  <data name="lbl_name.Text" xml:space="preserve">
-    <value>Name:</value>
+  <data name="&gt;&gt;lbl_localIP.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;txt_localPort.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1094,20 +1097,17 @@
   <data name="&gt;&gt;txt_height.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="txt_serverIP_2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;txt_width.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="gb_svgOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 120</value>
-  </data>
-  <data name="&gt;&gt;txt_serverIP_2.Name" xml:space="preserve">
-    <value>txt_serverIP_2</value>
+  <data name="&gt;&gt;lbl_localPort.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;txt_height.Parent" xml:space="preserve">
     <value>gb_svgOptions</value>
-  </data>
-  <data name="lbl_width.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 64</value>
   </data>
   <data name="lbl_loadSVG.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
